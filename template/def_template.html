@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="Stylesheet" type="text/css" href="%root_path%../template/style.css" />
+        <title>%title%</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="icon" type="image/ico" href="../image/favicon.ico" />
+        <meta name="author" content="JiuYan" />
+        <meta id="viewport" name="viewport" 
+            content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" /> 
+        <script type="text/javascript" charset="utf-8"> 
+            window.onload = function() {
+                var header = document.getElementById('header').getElementsByTagName('h1')[0],
+                    old = document.getElementById('content').getElementsByTagName('h1')[0];
+                if (old) header.innerHTML = old.innerHTML;
+                setTimeout(function(){
+                    window.scrollTo(0, 1);
+                }, 100);
+            }
+        </script> 
+    </head>
+    <body>
+        <div id="navigation">
+            <a href="%root_path%index.html" id="backButton">Index</a> | <a href="%root_path%diary/diary.html">Diary</a>
+        </div>
+        <div class="content">
+        %content%
+        </div>
+    </body>
+    <!--<div id="footer">-->
+            <!--Powered by <a href="https://github.com/vimwiki/vimwiki">Vimwiki</a>-->
+    <!--</div>-->
+</html>
