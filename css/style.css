@@ -13,6 +13,14 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
 }
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
 H1 {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
     line-height: 150%;
@@ -105,8 +113,10 @@ img {
     margin-bottom: 30px;
     width: 60%;
 }
-
-
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
 hr {
     color: LightGrey;
 }
