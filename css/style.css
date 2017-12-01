@@ -8,7 +8,7 @@
     }
 }
 
-@media only screen and (min-width: 1029px) {
+@media only screen and (min-width: 667px) {
     body {
         font-family: Helvetica, Arial, Vernada, Tahoma, STFangsong, STXihei, "Songti SC", "Microsoft YaHei", Heiti, sans-serif;
         margin: 5% 10% 5% 10%;
