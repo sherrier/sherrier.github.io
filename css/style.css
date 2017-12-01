@@ -96,6 +96,8 @@ pre {
 code {
     font-family: Inconsolata, Consolas, "DEJA VU SANS MONO", "DROID SANS MONO", Proggy, monospace;
     font-size: 90%;
+    word-wrap:break-word;
+    white-space: pre-wrap;
 }
 
 a {
