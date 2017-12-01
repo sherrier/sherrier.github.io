@@ -7,6 +7,16 @@ body {
     line-height: 150%;
     border: 1px solid LightGrey;
 }
+
+/* 手机等小屏幕手持设备 */
+/*此参数为iphone5-iphone6的高度限制*/
+@media screen and (min-height:480px) and (max-height: 667px) {
+    body {
+        margin: 5% 5% 5% 5%;
+        padding: 2% 5% 5% 5%;
+    }
+}
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
