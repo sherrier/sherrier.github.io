@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Jelly's Blog</title>
+        <!-- link to main stylesheet -->
+        <link rel="Stylesheet" type="text/css" href="/css/main.css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="icon" type="image/ico" href="../image/favicon.ico" />
+        <meta name="author" content="sherrier" />
+        <meta id="viewport" name="viewport" 
+            content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" /> 
+        <script type="text/javascript" charset="utf-8"> 
+            window.onload = function() {
+                var header = document.getElementById('header').getElementsByTagName('h1')[0],
+                    old = document.getElementById('content').getElementsByTagName('h1')[0];
+                if (old) header.innerHTML = old.innerHTML;
+                setTimeout(function(){
+                    window.scrollTo(0, 1);
+                }, 100);
+            }
+        </script> 
+    </head>
+    <body>
+          <nav>
+              <ul>
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/about">About</a></li>
+                  <li><a href="/cv">CV</a></li>
+                  <li><a href="/blog">Blog</a></li>
+              </ul>
+           </nav>
+          <div class="container">
+          
+          {{ content }}
+
+          </div><!-- /.container -->
+          <footer>
+            <ul>
+                <li><a href="https://github.com/sherrier">github.com/hankquinlan</a></li>
+            </ul>
+			    </footer>
+    </body>
+</html>
