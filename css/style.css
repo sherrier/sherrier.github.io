@@ -1,12 +1,12 @@
-body {
-    font-family: Helvetica, Arial, Vernada, Tahoma, STFangsong, STXihei, "Songti SC", "Microsoft YaHei", Heiti, sans-serif;
-    font-size: 18px;
-    margin: 5% 10% 5% 10%;
-    padding: 2% 5% 5% 5%;
-    width: 70%;
-    line-height: 150%;
-    border: 1px solid LightGrey;
-}
+/*body {*/
+    /*font-family: Helvetica, Arial, Vernada, Tahoma, STFangsong, STXihei, "Songti SC", "Microsoft YaHei", Heiti, sans-serif;*/
+    /*font-size: 18px;*/
+    /*margin: 5% 10% 5% 10%;*/
+    /*padding: 2% 5% 5% 5%;*/
+    /*width: 70%;*/
+    /*line-height: 150%;*/
+    /*border: 1px solid LightGrey;*/
+/*}*/
 
 /* 手机等小屏幕手持设备 */
 /*此参数为iphone5-iphone6的高度限制*/
