@@ -93,6 +93,10 @@ a {
     color: black;
 }
 
+a:hover {
+	background-color: LightGrey;
+}
+
 /*img {*/
     /*margin-left: 10px;*/
     /*display: block;*/
