@@ -3,7 +3,7 @@ layout: post
 title: "React Native 开发资料整理"
 date: 2017-12-01
 ---
-
+## 技术栈
 * 概述
 	* [React 技术栈系列教程 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2016/09/react-technology-stack.html)
 	* [一个治愈JavaScript疲劳的学习计划](http://www.zcfy.cc/article/a-study-plan-to-cure-javascript-fatigue-freecodecamp-3968.html)
