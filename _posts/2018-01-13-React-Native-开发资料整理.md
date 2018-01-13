@@ -3,7 +3,9 @@ layout: post
 title: "React Native 开发资料整理"
 date: 2018-01-13
 ---
+
 ## 技术栈
+
 * 概述
 	* [React 技术栈系列教程 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2016/09/react-technology-stack.html)
 	* [一个治愈JavaScript疲劳的学习计划](http://www.zcfy.cc/article/a-study-plan-to-cure-javascript-fatigue-freecodecamp-3968.html)
@@ -36,7 +38,8 @@ date: 2018-01-13
 	* [Facebook Authen](https://snack.expo.io/rJDqQEWOZ)
 
 
-### 阅读
+## 阅读
+
 * [makeitopen.com · Building the F8 App](http://makeitopen.com)
 	* [Facebook React Native 教程](https://f8-app.liaohuqiu.net)
 * React 思想
@@ -44,7 +47,8 @@ date: 2018-01-13
 	*  [Container Components – Learn React with chantastic – Medium](https://medium.com/@learnreact/container-components-c0e67432e005)
 	* [Presentational and Container Components – Dan Abramov – Medium](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
 
-### 开发环境
+## 开发环境
+
 * [[Tmux]]
 * [[Vim]]
 	* [jsctags: jsctags generator using tern](https://github.com/ramitos/jsctags)
