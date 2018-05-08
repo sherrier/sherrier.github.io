@@ -4,3 +4,6 @@ paginate_path: "/blog/page:num/"
 
 plugins:
   - jekyll-sitemap
+
+# Google Analytics
+google_analytics: UA-110491776-1
